@@ -45,7 +45,7 @@ export default function HomeScreen() {
 }}, []);
 
     return (
-    <View style={{ flex: 1, alignItems: 'left', justifyContent: 'flex-start', backgroundColor: 'white' }}>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-start', backgroundColor: 'white' }}>
       <Header />
       
           <FilterCategories/>

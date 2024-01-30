@@ -86,12 +86,12 @@ const styles = StyleSheet.create({
   },
   city: {
     color: '#EDEFEE', 
-    fontSize: 32, 
+    fontSize: 20, 
     textAlign: 'left'
   },
   description: {
     color: '#EDEFEE', 
-    fontSize: 18, 
+    fontSize: 13, 
     textAlign: 'left'
   },
   imageContainer: {

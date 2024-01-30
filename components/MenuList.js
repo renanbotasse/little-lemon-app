@@ -4,11 +4,11 @@ import {getFilteredMenuItems} from '../utils/MenuData';
 import { SettingsContext } from '../utils/MenuProvider';
 
 const styles = StyleSheet.create({
-  container: { margin: 10, backgroundColor: '#FFF' },
-  title: { fontSize: 24, fontWeight: 'bold' },
+  container: { margin: 20, backgroundColor: '#FFF' },
+  title: { fontSize: 20, fontWeight: 'bold' },
   row: { flexDirection: 'row', justifyContent: 'space-between', borderWidth: 0, marginTop: 5 },
-  description: { flex: 0.8, margin: 5, fontSize: 14 },
-  price: { fontSize: 14, fontWeight: 'bold', alignSelf: 'flex-start' },
+  description: { flex: 1, margin: 1, fontSize: 8 },
+  price: { fontSize: 10, fontWeight: 'bold', alignSelf: 'flex-start' },
   image: { flex: 0.4, width: 100, height: 100 },
   separator: { borderColor: '#DDDDDD', borderBottomWidth: 1 }
 });
